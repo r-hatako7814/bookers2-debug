@@ -1,18 +1,41 @@
-<div class="container">
-  <div class="row">
-    <div class='mx-auto col-11 col-sm-10 col-lg-8 col-xl-6'>
-      <h1>welcome to <i class="fas fa-book"></i><strong>Bookers</strong>  !!</h1>
-      <p>In  <i class="fas fa-book"></i><strong>Bookers</strong>, </p>
-      <p>you can share and exchange  your opinions , inpressions , and emotions</p>
-      <p> about various books!</p>
-      <div class="btn-wrapper col-10 mx-auto">
-        <div class="row">
-          <%= link_to 'Log in',new_user_session_path, class: "btn btn-info btn-sm btn-block mb-3 sign_in" %>
-        </div>
-        <div class="row">
-          <%= link_to 'Sign Up',new_user_registration_path, class: "btn btn-success btn-sm btn-block sign_up" %>
-        </div>
+  <div class = "container-fluid">
+    <div = "row">
+      <div class = "col-lg-3">
+        <table border="2" style="border-collapse: collapse" rules="groups">
+          <tr>
+            <th class = "header">ジャンル検索</th>
+          </tr>
+        </thead>
+        <tbody>
+          <div class ="m-4">
+            <tr>
+              <td>ケーキ</td>
+            </tr>
+          </div>
+          <tr>
+            <td>焼き菓子</td>
+          </tr>
+          <tr>
+            <td>プリン</td>
+          </tr>
+          <tr>
+            <td>キャンディ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-lg-9">
+      <div style = "border:solid">
+      <h4 class = "p-4">
+        ようこそ、ながのCAKEへ！</br>
+        このサイトは、ケーキ販売のECサイトになります。</br>
+        会員でない方も商品の閲覧はできますが、</br>
+        購入には会員登録が必要になります。
+      </h4>
       </div>
+    </div>
+    <div class = "row">
+      <h3 class = "p-1"><strong>新着商品</strong></h1>
     </div>
   </div>
 </div>
